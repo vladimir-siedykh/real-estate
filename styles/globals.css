@@ -1,26 +1,45 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: var(--nunito-font);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+@layer base {
   body {
-    color: white;
-    background: black;
+    @apply text-base font-normal leading-8 text-[#474545] tracking-wider;
+  }
+
+  .heading-1 {
+    @apply text-[4rem] font-bold leading-[5rem] text-[#333333];
+  }
+
+  .heading-2 {
+    @apply text-[3.5rem] font-bold leading-[4.5rem] text-[#333333];
+  }
+
+  .heading-3 {
+    @apply text-[2.5rem] font-bold leading-snug text-[#333333];
+  }
+
+  .heading-4 {
+    @apply text-[2rem] font-bold leading-normal text-[#333333];
+  }
+
+  .heading-5 {
+    @apply text-2xl font-bold leading-10 text-[#333333];
+  }
+
+  .heading-6 {
+    @apply text-base font-bold leading-8 text-[#333333];
+  }
+
+  .section {
+    @apply p-4 sm:p-10 xl:p-20;
+  }
+
+  .btn {
+    @apply bg-blue-700 text-white px-10 py-2 h-min rounded-3xl;
   }
 }
