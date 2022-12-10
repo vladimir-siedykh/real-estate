@@ -16,11 +16,11 @@ html {
   }
 
   .heading-2 {
-    @apply text-[3.5rem] font-bold leading-[4.5rem] text-[#333333];
+    @apply text-[2.5rem] leading-snug md:text-[3.5rem] font-bold md:leading-[4.5rem] text-[#333333];
   }
 
   .heading-3 {
-    @apply text-[2.5rem] font-bold leading-snug text-[#333333];
+    @apply text-[2rem] leading-normal md:text-[2.5rem] font-bold md:leading-snug text-[#333333];
   }
 
   .heading-4 {
@@ -36,10 +36,46 @@ html {
   }
 
   .section {
-    @apply p-4 sm:p-10 xl:p-20;
+    @apply px-4 py-10 sm:p-10 xl:p-20;
   }
 
   .btn {
-    @apply bg-blue-700 text-white px-10 py-2 h-min rounded-3xl;
+    @apply bg-blue-700 text-white px-10 py-2 h-min rounded-3xl hover:bg-blue-800;
+  }
+
+  .btn-transparent {
+    @apply bg-transparent text-[#333333] px-10 py-2 h-min w-max rounded-3xl border-2 border-[#333333] hover:text-white hover:bg-[#333333];
+  }
+
+  .features {
+    grid-template-columns: max-content 1fr;
+    gap: 1rem;
+    display: grid;
+    padding: 1rem;
+  }
+  
+  .features:hover {
+    background: #ffffff;
+    box-shadow: 0px 80px 120px rgba(51, 51, 51, 0.1);
+    border-radius: 1rem;
+  }
+
+  @media(width<= 540px) {
+    .features {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .testimonial {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .testimonial:hover {
+    background: #ffffff;
+    box-shadow: 0px 80px 120px rgba(51, 51, 51, 0.1);
+    border-radius: 1rem;
   }
 }
