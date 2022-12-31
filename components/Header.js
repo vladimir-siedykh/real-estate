@@ -1,7 +1,14 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import { useState } from 'react';
+import BurgerMenu from './BurgerMenu';
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className='py-4 px-4 sm:px-6'>
       <div className='flex justify-between items-center mx-auto max-w-7xl'>
@@ -26,11 +33,13 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <button className='btn'>Get a quote</button>
+          <button className='hidden md:block btn'>Get a quote</button>
+
+          <BurgerMenu />
         </div>
       </div>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;
