@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import iconPlace from '../public/images/place.svg';
 import iconPhone from '../public/images/phone.svg';
 import iconMail from '../public/images/mail.svg';
 import { useState } from 'react';
