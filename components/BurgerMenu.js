@@ -66,7 +66,7 @@ const BurgerMenu = () => {
                 <Link href='/'>Contact Us</Link>
               </li>
             </ul>
-            <div className='flex flex-col gap-4 mt-auto'>
+            <div className='flex flex-col items-center gap-4 mt-auto'>
               <div className='flex gap-2'>
                 <Image src={iconPhone} alt='' />
                 <a href='tel:+1234567890'>+123 456 7890</a>
