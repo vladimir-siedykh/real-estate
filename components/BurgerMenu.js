@@ -38,17 +38,17 @@ const BurgerMenu = () => {
       </button>
       {isOpen && (
         <nav
-          className='fixed p-16 right-0 top-0 
+          className='fixed py-24 right-0 top-0 
         w-[90%] sm:w-[80%] h-screen bg-white shadow z-40'
         >
           {/* Add navigation links here */}
           <nav
-            className='flex h-full gap-14 flex-col 
-          justify-center items-center'
+            className='flex h-full flex-col 
+          justify-center items-center gap-4'
           >
             <ul
               className='mt-auto flex flex-col items-center
-            gap-6 text-2xl font-bold'
+            gap-6 text-3xl font-bold'
             >
               <li>
                 <Link href='/'>Home</Link>
