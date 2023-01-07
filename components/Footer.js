@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <nav className=''>
             <div className='max-w-[max-content] lg:mx-auto'>
-              <h5 className='heading-5 mb-4'>Useful Links</h5>
+              <div className='heading-5 mb-4'>Useful Links</div>
               <ul>
                 <li>
                   <Link href='/listing'>Listing</Link>

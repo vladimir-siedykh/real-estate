@@ -20,9 +20,9 @@ const Features = () => {
             <div className='features'>
               <Image src={iconTick} alt='' />
               <div className='flex flex-col gap-4 justify-center'>
-                <h4 className='heading-4 leading-tight'>
+                <div className='heading-4 leading-tight'>
                   Comfortable Home Design
-                </h4>
+                </div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -32,9 +32,9 @@ const Features = () => {
             <div className='features'>
               <Image src={iconTick} alt='' />
               <div className='flex flex-col gap-4 justify-center'>
-                <h4 className='heading-4 leading-tight'>
+                <div className='heading-4 leading-tight'>
                   Professional Developer
-                </h4>
+                </div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -44,7 +44,7 @@ const Features = () => {
             <div className='features'>
               <Image src={iconTick} alt='' />
               <div className='flex flex-col gap-4 justify-center'>
-                <h4 className='heading-4 leading-tight'>Fast Response</h4>
+                <div className='heading-4 leading-tight'>Fast Response</div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua.
