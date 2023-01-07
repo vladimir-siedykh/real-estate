@@ -26,7 +26,7 @@ const FeaturedListing = () => {
                     <div className='card-body mt-4'>
                       <h3 className='heading-5'>{card.title}</h3>
                       <div className='flex items-center gap-2'>
-                        <Image src={iconPlace} alt=''/>
+                        <Image src={iconPlace} alt='' width={24} height={24}/>
                         <p>
                           {card.address}, {card.country}
                         </p>
