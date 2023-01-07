@@ -51,19 +51,59 @@ const BurgerMenu = () => {
             gap-6 text-3xl font-bold'
             >
               <li>
-                <Link href='/'>Home</Link>
+                <Link
+                  href='/'
+                  onClick={() => {
+                    setIsOpen(!isOpen);
+                    toggleBodyScroll();
+                  }}
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href='/about'>About</Link>
+                <Link
+                  href='/about'
+                  onClick={() => {
+                    setIsOpen(!isOpen);
+                    toggleBodyScroll();
+                  }}
+                >
+                  About
+                </Link>
               </li>
               <li>
-                <Link href='/listing'>Listing</Link>
+                <Link
+                  href='/listing'
+                  onClick={() => {
+                    setIsOpen(!isOpen);
+                    toggleBodyScroll();
+                  }}
+                >
+                  Listing
+                </Link>
               </li>
               <li>
-                <Link href='/blog'>Blog</Link>
+                <Link
+                  href='/blog'
+                  onClick={() => {
+                    setIsOpen(!isOpen);
+                    toggleBodyScroll();
+                  }}
+                >
+                  Blog
+                </Link>
               </li>
               <li>
-                <Link href='/'>Contact Us</Link>
+                <Link
+                  href='/contact'
+                  onClick={() => {
+                    setIsOpen(!isOpen);
+                    toggleBodyScroll();
+                  }}
+                >
+                  Contact Us
+                </Link>
               </li>
             </ul>
             <div className='flex flex-col items-center gap-4 mt-auto'>

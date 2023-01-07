@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/* html {
   font-family: var(--nunito-font);
-}
+} */
 
 @layer base {
   body {
