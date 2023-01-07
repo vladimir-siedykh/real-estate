@@ -65,7 +65,7 @@ const Testimonials = () => {
                       className='rounded-full'
                     />
                     <div className='flex flex-col gap-2 justify-center leading-none'>
-                      <h6 className='heading-6 leading-none'>{user.title}</h6>
+                      <div className='heading-6 leading-none'>{user.title}</div>
                       <p className='leading-none'>{user.subtitle}</p>
                     </div>
                   </div>

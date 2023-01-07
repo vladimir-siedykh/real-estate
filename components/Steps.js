@@ -18,7 +18,7 @@ const Steps = () => {
             <div className='heading-5 flex items-center justify-center rounded-full w-14 h-14 bg-[#222430] text-white'>
               1.
             </div>
-            <h4 className='heading-4 mt-4 mb-2'>View Listing</h4>
+            <div className='heading-4 mt-4 mb-2'>View Listing</div>
             <p>
               Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore.
@@ -28,7 +28,7 @@ const Steps = () => {
             <div className='heading-5 flex items-center justify-center rounded-full w-14 h-14 bg-[#222430] text-white'>
               2.
             </div>
-            <h4 className='heading-4 mt-4 mb-2'>Contact Us</h4>
+            <div className='heading-4 mt-4 mb-2'>Contact Us</div>
             <p>
               Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore.
@@ -38,7 +38,7 @@ const Steps = () => {
             <div className='heading-5 flex items-center justify-center rounded-full w-14 h-14 bg-[#222430] text-white'>
               3.
             </div>
-            <h4 className='heading-4 mt-4 mb-2'>Request a Visit</h4>
+            <div className='heading-4 mt-4 mb-2'>Request a Visit</div>
             <p>
               Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore.
@@ -48,7 +48,7 @@ const Steps = () => {
             <div className='heading-5 flex items-center justify-center rounded-full w-14 h-14 bg-[#222430] text-white'>
               4.
             </div>
-            <h4 className='heading-4 mt-4 mb-2'>Request a Visit</h4>
+            <div className='heading-4 mt-4 mb-2'>Request a Visit</div>
             <p>
               Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore.
