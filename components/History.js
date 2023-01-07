@@ -9,7 +9,7 @@ const History = () => {
         <Image
           src={historyImg}
           alt='image features'
-          className='w-full h-auto object-cover rounded-2xl aspect-video lg:aspect-auto'
+          className='w-full max-h-[800px] object-cover rounded-2xl aspect-video lg:aspect-auto'
         />
         <div className='contnet order-last'>
           <div className='heading'>
