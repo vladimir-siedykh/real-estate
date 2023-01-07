@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import iconPlace from '../public/images/place.svg'
-import iconPhone from '../public/images/phone.svg'
-import iconMail from '../public/images/mail.svg'
+import iconPlace from '../public/images/place.svg';
+import iconPhone from '../public/images/phone.svg';
+import iconMail from '../public/images/mail.svg';
 
 const Footer = () => {
   return (
@@ -17,24 +17,26 @@ const Footer = () => {
             </p>
           </div>
           <nav className=''>
-            <ul className='max-w-[max-content] lg:mx-auto'>
+            <div className='max-w-[max-content] lg:mx-auto'>
               <h5 className='heading-5 mb-4'>Useful Links</h5>
-              <li>
-                <Link href='/'>Listing</Link>
-              </li>
-              <li>
-                <Link href='/'>About Us</Link>
-              </li>
-              <li>
-                <Link href='/'>Contact Us</Link>
-              </li>
-              <li>
-                <Link href='/'>Our Team</Link>
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  <Link href='/listing'>Listing</Link>
+                </li>
+                <li>
+                  <Link href='/about'>About Us</Link>
+                </li>
+                <li>
+                  <Link href='/contact'>Contact Us</Link>
+                </li>
+                <li>
+                  <Link href='/team'>Our Team</Link>
+                </li>
+              </ul>
+            </div>
           </nav>
           <div className='max-w-[max-content] lg:mx-auto'>
-            <h5 className='heading-5 mb-4'>Get in Touch</h5>
+            <div className='heading-5 mb-4'>Get in Touch</div>
             <div className='flex flex-col gap-4'>
               <div className='flex gap-2'>
                 <Image src={iconPlace} alt='' />
@@ -53,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='md:ml-none'>
-            <h5 className='heading-5 mb-4'>Newsletter</h5>
+            <div className='heading-5 mb-4'>Newsletter</div>
             <form>
               <div className='flex flex-col gap-4 max-w-full'>
                 <input
@@ -69,6 +71,6 @@ const Footer = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Footer
+export default Footer;

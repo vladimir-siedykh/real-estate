@@ -12,7 +12,9 @@ const Header = () => {
   return (
     <header className='py-4 px-4 sm:px-6'>
       <div className='flex justify-between items-center mx-auto max-w-7xl'>
-        <h1 className='heading-4'>R&E</h1>
+        <h1 className='heading-4'>
+          <Link href='/'>Real Estate</Link>
+        </h1>
         <div className='flex gap-6'>
           <nav className='hidden md:flex gap-6 items-center'>
             <ul className='flex gap-6'>

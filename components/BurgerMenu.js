@@ -15,7 +15,7 @@ const BurgerMenu = () => {
 
   return (
     <>
-      <button
+      <div
         className='md:hidden flex flex-col h-12 w-12 rounded justify-center items-center group z-50'
         onClick={() => {
           setIsOpen(!isOpen);
@@ -35,7 +35,7 @@ const BurgerMenu = () => {
             isOpen ? '-rotate-45 -translate-y-3' : ''
           }`}
         />
-      </button>
+      </div>
       {isOpen && (
         <nav
           className='fixed py-24 right-0 top-0 
