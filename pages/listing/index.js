@@ -1,9 +1,13 @@
-import React from 'react'
+import Heading from '../../components/Heading';
+import Listing from '../../components/Listing';
 
 const ListingPage = () => {
   return (
-    <div>ListingPage</div>
-  )
-}
+    <>
+      <Heading title='Listing' subtitle='This is the listing page' />
+      <Listing />
+    </>
+  );
+};
 
-export default ListingPage
+export default ListingPage;

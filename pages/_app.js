@@ -12,14 +12,13 @@ const nunito = Nunito({
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      {/* <style jsx global>
+      <style jsx global>
         {`
           :root {
-            --lora-font: ${lora.style.fontFamily};
             --nunito-font: ${nunito.style.fontFamily};
           }
         `}
-      </style> */}
+      </style>
       <NextSeo
         title='Real Estate Agency'
         description='Real Estate Agency'

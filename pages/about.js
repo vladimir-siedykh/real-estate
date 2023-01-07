@@ -1,8 +1,15 @@
-import React from 'react'
+import AboutMission from "../components/AboutMission"
+import Heading from "../components/Heading"
+import History from "../components/History"
+
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <>
+      <Heading title='About' subtitle='This is the about page' />
+      <AboutMission />
+      <History />
+    </>
   )
 }
 

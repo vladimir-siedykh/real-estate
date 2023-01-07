@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import listing from '../constants/listing';
-import iconPlace from '../public/images/place.svg'
+import listing from '../listing/listing';
+import iconPlace from '../public/images/icons/place.png'
 
 /* eslint-disable react/no-unescaped-entities */
 const FeaturedListing = () => {
@@ -26,7 +26,7 @@ const FeaturedListing = () => {
                     <div className='card-body mt-4'>
                       <h3 className='heading-5'>{card.title}</h3>
                       <div className='flex items-center gap-2'>
-                        <Image src={iconPlace} alt='' width={24} height={24} style={{width: 'auto'}}/>
+                          <Image src={iconPlace} alt='' width={24} height={24} className='w-6 h-6'/>
                         <p>
                           {card.address}, {card.country}
                         </p>

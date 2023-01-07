@@ -1,8 +1,11 @@
 import React from 'react'
+import Heading from '../../components/Heading'
 
 const ListingDetails = () => {
   return (
-    <div>ListingDetails</div>
+    <>
+      <Heading title='Listing Details' subtitle='This is the listing details page' />
+    </>
   )
 }
 

@@ -74,6 +74,17 @@ const BurgerMenu = () => {
               </li>
               <li>
                 <Link
+                  href='/services'
+                  onClick={() => {
+                    setIsOpen(!isOpen);
+                    toggleBodyScroll();
+                  }}
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
                   href='/listing'
                   onClick={() => {
                     setIsOpen(!isOpen);

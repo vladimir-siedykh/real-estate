@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import iconPlace from '../public/images/place.svg';
-import iconPhone from '../public/images/phone.svg';
-import iconMail from '../public/images/mail.svg';
+import iconPlace from '../public/images/icons/place.svg';
+import iconPhone from '../public/images/icons/phone.svg';
+import iconMail from '../public/images/icons/mail.svg';
 
 const Footer = () => {
   return (
@@ -21,16 +21,22 @@ const Footer = () => {
               <div className='heading-5 mb-4'>Useful Links</div>
               <ul>
                 <li>
+                  <Link href='/'>Home</Link>
+                </li>
+                <li>
+                  <Link href='/about'>About</Link>
+                </li>
+                <li>
+                  <Link href='/services'>Services</Link>
+                </li>
+                <li>
                   <Link href='/listing'>Listing</Link>
                 </li>
                 <li>
-                  <Link href='/about'>About Us</Link>
+                  <Link href='/blog'>Blog</Link>
                 </li>
                 <li>
                   <Link href='/contact'>Contact Us</Link>
-                </li>
-                <li>
-                  <Link href='/team'>Our Team</Link>
                 </li>
               </ul>
             </div>
@@ -38,18 +44,36 @@ const Footer = () => {
           <div className='max-w-[max-content] lg:mx-auto'>
             <div className='heading-5 mb-4'>Get in Touch</div>
             <div className='flex flex-col gap-4'>
-              <div className='flex gap-2'>
-                <Image src={iconPlace} alt='' />
+              <div className='flex gap-2 items-center'>
+                <Image
+                  src={iconPlace}
+                  alt=''
+                  width={24}
+                  height={24}
+                  className='w-6 h-6'
+                />
                 <p className='max-w-[210px]'>
                   123 Anywhere Street, Any City, 12345 ST, Indonesia
                 </p>
               </div>
-              <div className='flex gap-2'>
-                <Image src={iconPhone} alt='' />
+              <div className='flex gap-2 items-center'>
+                <Image
+                  src={iconPhone}
+                  alt=''
+                  width={24}
+                  height={24}
+                  className='w-6 h-6'
+                />
                 <a href='tel:+1234567890'>+123 456 7890</a>
               </div>
-              <div className='flex gap-2'>
-                <Image src={iconMail} alt='' />
+              <div className='flex gap-2 items-center'>
+                <Image
+                  src={iconMail}
+                  alt=''
+                  width={24}
+                  height={24}
+                  className='w-6 h-6'
+                />
                 <a href='mailto:hello@realestate.com'>hello@realestate.com</a>
               </div>
             </div>
