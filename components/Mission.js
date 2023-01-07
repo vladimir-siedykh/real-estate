@@ -10,7 +10,6 @@ const Mission = () => {
           <Image
             src={imgVision}
             alt='Vision'
-            priority
             className='w-full h-auto rounded-2xl lg:order-2 order-none'
           />
           <h3 className='heading-3'>Vision</h3>
@@ -26,7 +25,6 @@ const Mission = () => {
           <Image
             src={imgMission}
             alt='Mission'
-            priority
             className='w-full h-auto rounded-2xl'
           />
           <h3 className='heading-3'>Mission</h3>

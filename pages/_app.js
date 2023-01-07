@@ -1,15 +1,13 @@
-// import { Lora, Nunito } from '@next/font/google';
 import { NextSeo } from 'next-seo';
 import Layout from '../components/Layout';
 import '../styles/globals.css'
 
-// const lora = Lora({
-//   subsets: ['latin'],
-// });
-
-// const nunito = Nunito({
-//   subsets: ['latin'],
-// });
+import { Nunito } from '@next/font/google';
+const nunito = Nunito({
+  display: 'fallback',
+  weights: ['100 900'],
+  subsets: ['latin'],
+});
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -26,9 +24,11 @@ function MyApp({ Component, pageProps }) {
         title='Real Estate Agency'
         description='Real Estate Agency'
       />
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <div className={nunito.className}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </div>
     </>
   );
 }
