@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import iconPlace from '../public/images/icons/place.svg';
 import iconBed from '../public/images/icons/bed.svg';
 import iconBath from '../public/images/icons/bath.svg';
@@ -7,7 +6,6 @@ import iconSquare from '../public/images/icons/square.svg';
 
 const ListingCard = ({ card }) => {
   return (
-    <Link href={`/listing/${card.slug}`}>
       <div className='relative' key={card.id}>
         <Image
           src={card.image}
@@ -41,7 +39,7 @@ const ListingCard = ({ card }) => {
               height={24}
               className='w-6 h-6'
             />
-            <p>{card.area} Sq Ft</p>
+            <p>{card.area}m</p>
           </div>
           <div className='flex items-center gap-2'>
             <Image
@@ -51,16 +49,15 @@ const ListingCard = ({ card }) => {
               height={24}
               className='w-6 h-6'
             />
-            <p>{card.beds} Bedroom</p>
+            <p>{card.beds} Bed</p>
           </div>
           <div className='flex items-center gap-2'>
 
             <Image src={iconBath} alt='' width={24} height={24} className='w-6 h-6' />
-            <p>{card.baths} Bathroom</p>
+            <p>{card.baths} Bath</p>
           </div>
         </div>
       </div>
-    </Link>
   );
 };
 

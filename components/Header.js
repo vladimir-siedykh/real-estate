@@ -31,14 +31,11 @@ const Header = () => {
                 <Link href='/listing'>Listing</Link>
               </li>
               <li>
-                <Link href='/blog'>Blog</Link>
-              </li>
-              <li>
                 <Link href='/contact'>Contact Us</Link>
               </li>
             </ul>
           </nav>
-          <button className='hidden md:block btn'>Get a quote</button>
+          <Link href='/contact' className='hidden md:block btn'>Get a quote</Link>
 
           <BurgerMenu />
         </div>

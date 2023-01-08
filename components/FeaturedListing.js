@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import listing from '../listing/listing';
 import iconPlace from '../public/images/icons/place.png'
 
@@ -41,7 +42,7 @@ const FeaturedListing = () => {
           </div>
           <div className='flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between'>
             <p>Discover the perfect home for you</p>
-            <button className='btn-transparent'>See More</button>
+            <Link href='/listing' className='btn-transparent'>See More</Link>
           </div>
         </div>
       </div>
