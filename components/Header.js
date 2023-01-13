@@ -30,9 +30,9 @@ const Header = () => {
               <li>
                 <Link href='/listing'>Listing</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/contact'>Contact Us</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <Link href='/contact' className='hidden md:block btn'>Get a quote</Link>
