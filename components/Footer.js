@@ -93,7 +93,7 @@ const Footer = () => {
           <div>© {new Date().getFullYear()} R&E. All Rights Reserved.</div>
           <div>
             Developed by{' '}
-            <Link className='underline' href='https://siedykh.com' target='_blank'>
+            <Link className='underline' href='https://www.siedykh.com' target='_blank'>
               VSD&D
             </Link>
           </div>
