@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-col sm:flex-row justify-between gap-2 text-sm sm:text-base mt-10'>
           <div>© {new Date().getFullYear()} R&E. All Rights Reserved.</div>
-          <div>
+          <div className='hidden'>
             Developed by{' '}
             <Link className='underline' href='https://www.siedykh.com' target='_blank'>
               VSD&D
