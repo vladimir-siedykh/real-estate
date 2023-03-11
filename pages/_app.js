@@ -22,6 +22,12 @@ function MyApp({ Component, pageProps }) {
       <NextSeo
         title='Real Estate Agency'
         description='Real Estate Agency'
+        canonical='http://www.balirealtyhq.com/'
+        openGraph={{
+          url: 'http://www.balirealtyhq.com/',
+          title: 'Real Estate Agency',
+          description: 'Real Estate Agency',
+        }}
       />
       <div className={nunito.className}>
         <Layout>

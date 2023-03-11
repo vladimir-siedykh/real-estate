@@ -42,7 +42,7 @@ const FeaturedListing = () => {
           </div>
           <div className='flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between'>
             <p>Discover the perfect home for you</p>
-            <Link href='/listing' className='btn-transparent'>See More</Link>
+            <Link href='/listing' className='btn'>See More</Link>
           </div>
         </div>
       </div>
