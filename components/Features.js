@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import imgFeatures from '../public/images/features.png'
 import iconTick from '../public/images/tick.svg'
@@ -12,11 +13,12 @@ const Features = () => {
               Why Choose Us for Your House Needs?
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              At Real Estate Bali, we offer a unique combination of expertise,
+              personalized service, and a commitment to finding you your perfect
+              home.
             </p>
           </div>
-          <div className="flex flex-col gap-4 mt-10">
+          <div className='flex flex-col gap-4 mt-10'>
             <div className='features'>
               <Image src={iconTick} alt='' />
               <div className='flex flex-col gap-4 justify-center'>
@@ -24,8 +26,9 @@ const Features = () => {
                   Comfortable Home Design
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Our properties are designed with comfort and functionality in
+                  mind, ensuring that you can enjoy a stress-free and relaxed
+                  living environment.
                 </p>
               </div>
             </div>
@@ -36,8 +39,9 @@ const Features = () => {
                   Professional Developer
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Our team of professional developers works tirelessly to bring
+                  you the best properties on the market, combining quality
+                  craftsmanship with modern design.
                 </p>
               </div>
             </div>
@@ -46,8 +50,10 @@ const Features = () => {
               <div className='flex flex-col gap-4 justify-center'>
                 <div className='heading-4 leading-tight'>Fast Response</div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  We understand that time is of the essence when it comes to
+                  finding a new home. That's why we always strive to provide
+                  fast and efficient responses to all of your queries and
+                  requests.
                 </p>
               </div>
             </div>

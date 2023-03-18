@@ -20,8 +20,9 @@ const Cta = () => {
               Let's Move to Your Dream Family Home
             </h2>
             <p className='max-w-3xl mt-4'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Finding the perfect family home is a top priority for many
+              families. Let Real Estate Bali help you find your dream home. Our
+              team is ready to assist you in your search. Contact us today.
             </p>
             <button className='btn mt-6 max-w-[max-content]'>
               Get Quote Now

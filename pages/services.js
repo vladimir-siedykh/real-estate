@@ -9,7 +9,7 @@ const ServicesPage = () => {
     <>
       <Heading
         title='Our Services'
-        subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        subtitle='At Real Estate Bali, we offer comprehensive solutions for buying, selling, and managing properties, ensuring a stress-free experience.'
       />
       <ServicesFeatured />
       <ServicesEstate />

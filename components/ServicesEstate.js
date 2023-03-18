@@ -9,8 +9,8 @@ const ServicesEstate = () => {
         <div className='flex flex-col'>
           <h2 className='heading-3'>Real Estate Services</h2>
           <p className='mt-4 mb-10'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We provide comprehensive services for all your property needs,
+            ensuring a seamless experience.
           </p>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3'>
             <div className='flex gap-2 items-center'>
@@ -63,13 +63,11 @@ const ServicesEstate = () => {
             </div>
           </div>
           <p className='mt-10'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Our team of dedicated professionals works closely with clients to
+            understand their requirements, providing personalized solutions and
+            exceptional service every step of the way. We are committed to
+            making your property journey in Bali a rewarding and memorable
+            experience.
           </p>
         </div>
         <Image

@@ -5,13 +5,6 @@ const ServicesFeatured = () => {
   return (
     <section className='section'>
       <div className='flex max-w-7xl mx-auto gap-10 md:gap-20 flex-col'>
-        {/* <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6'>
-          <h2 className='heading-3 max-w-xl'>Featured Services</h2>
-          <p className='max-w-xl'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div> */}
         <Image
           src={serviceMain}
           alt='main pic services'
@@ -24,8 +17,8 @@ const ServicesFeatured = () => {
             </div>
             <div className='heading-4 mt-4 mb-2'>Residential Building</div>
             <p>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Discover your perfect home in Bali, with our selection of
+              exceptional houses, villas, and apartments.
             </p>
           </div>
           <div className='count'>
@@ -34,8 +27,8 @@ const ServicesFeatured = () => {
             </div>
             <div className='heading-4 mt-4 mb-2'>Individual Building</div>
             <p>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Find unique and personalized spaces tailored to your individual
+              needs and preferences.
             </p>
           </div>
           <div className='count'>
@@ -44,8 +37,8 @@ const ServicesFeatured = () => {
             </div>
             <div className='heading-4 mt-4 mb-2'>Corporate Building</div>
             <p>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Secure the ideal location for your business with our range of
+              professional office spaces.
             </p>
           </div>
           <div className='count'>
@@ -54,8 +47,8 @@ const ServicesFeatured = () => {
             </div>
             <div className='heading-4 mt-4 mb-2'>Commercial Building</div>
             <p>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Explore prime retail and commercial properties to elevate your
+              business presence in Bali.
             </p>
           </div>
         </div>

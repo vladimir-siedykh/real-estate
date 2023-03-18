@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Steps = () => {
   return (
     <section className='section'>
@@ -7,8 +8,8 @@ const Steps = () => {
             Easy Step to Buy Property on Dhalem Real Estate
           </h2>
           <p className='max-w-xl'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Buying a property has never been easier, with Dhalem Real Estate's
+            simple and straightforward process.
           </p>
         </div>
         <div className='counter grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4'>
@@ -18,8 +19,8 @@ const Steps = () => {
             </div>
             <div className='heading-4 mt-4 mb-2'>View Listing</div>
             <p>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Explore our extensive collection of properties, carefully curated
+              to match your needs and preferences.
             </p>
           </div>
           <div className='count'>
@@ -28,8 +29,8 @@ const Steps = () => {
             </div>
             <div className='heading-4 mt-4 mb-2'>Contact Us</div>
             <p>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Get in touch with our friendly and knowledgeable team to answer
+              any questions or to schedule a viewing.
             </p>
           </div>
           <div className='count'>
@@ -38,8 +39,8 @@ const Steps = () => {
             </div>
             <div className='heading-4 mt-4 mb-2'>Request a Visit</div>
             <p>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Arrange a visit to your preferred property and take the first step
+              towards making it your own.
             </p>
           </div>
           <div className='count'>
@@ -48,8 +49,8 @@ const Steps = () => {
             </div>
             <div className='heading-4 mt-4 mb-2'>Request a Visit</div>
             <p>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Submit an offer and let us guide you through the next steps
+              towards securing your dream property.
             </p>
           </div>
         </div>

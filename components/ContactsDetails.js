@@ -14,8 +14,8 @@ const ContactsDetails = () => {
             <h3 className='heading-3 mb-4'>Get in Touch</h3>
             <div className='flex flex-col gap-4'>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut.
+                Feel free to contact us with any questions, concerns, or to
+                schedule a property viewing.
               </p>
               <div className='flex gap-2 items-center'>
                 <Image

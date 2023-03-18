@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import aboutImg from '../public/images/about.png'
 
@@ -10,8 +11,8 @@ const AboutMission = () => {
             Easy Step to Buy Property on Dhalem Real Estate
           </h2>
           <p className='max-w-xl'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Buying a home with us is simple. View listings, contact us, schedule
+            a visit, and buy your dream home.
           </p>
         </div>
         <Image
@@ -23,19 +24,22 @@ const AboutMission = () => {
           <div>
             <h3 className='heading-4 mb-4'>Our Vision</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              At Real Estate Bali, our vision is to be the leading provider of
+              high-quality and affordable homes for families in Bali. We believe
+              that everyone deserves a comfortable and beautiful place to call
+              home, and we're committed to making that a reality for all of our
+              customers.
             </p>
           </div>
           <div>
             <h3 className='heading-4 mb-4'>Our Mission</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Our mission is to make the process of buying a home as simple and
+              stress-free as possible. We strive to provide exceptional customer
+              service, unparalleled expertise, and the most comprehensive
+              selection of properties in Bali. Our goal is to help families find
+              their dream homes and to create lasting memories for generations
+              to come.
             </p>
           </div>
         </div>

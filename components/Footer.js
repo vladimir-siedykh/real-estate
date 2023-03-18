@@ -12,8 +12,8 @@ const Footer = () => {
           <div className=''>
             <h1 className='heading-5 mb-4'>R&E</h1>
             <p className='max-w-sm'>
-              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
+              Discover your dream property in the enchanting island of Bali with
+              our professional real estate services.
             </p>
           </div>
           <nav className=''>
@@ -93,7 +93,11 @@ const Footer = () => {
           <div>© {new Date().getFullYear()} R&E. All Rights Reserved.</div>
           <div>
             Developed by{' '}
-            <Link className='underline' href='https://www.siedykh.com' target='_blank'>
+            <Link
+              className='underline'
+              href='https://www.siedykh.com'
+              target='_blank'
+            >
               Volodymyr Siedykh
             </Link>
           </div>

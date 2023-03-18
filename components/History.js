@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import historyImg from '../public/images/aboutHistory.png';
 import iconTick from '../public/images/tick.svg';
@@ -15,8 +16,9 @@ const History = () => {
           <div className='heading'>
             <h2 className='heading-3 mb-4'>Our History</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Real Estate Bali began as a dream, uniting passion for property
+              and love for the island's beauty, to offer seamless real estate
+              solutions.
             </p>
           </div>
           <div className='flex flex-col gap-10 mt-10'>
@@ -49,10 +51,9 @@ const History = () => {
             </div>
           </div>
           <p className='mt-16'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Starting with a small, dedicated group, our journey has led to an
+            international presence, striving to serve our clients with
+            exceptional service and an unwavering commitment to excellence.
           </p>
         </div>
       </div>
