@@ -13,7 +13,7 @@ const Header = () => {
     <header className='py-4 px-4 sm:px-6'>
       <div className='flex justify-between items-center mx-auto max-w-7xl'>
         <h1 className='heading-4'>
-          <Link href='/'>Real Estate</Link>
+          <Link href='/'>Real Estate Bali</Link>
         </h1>
         <div className='flex gap-6'>
           <nav className='hidden md:flex gap-6 items-center'>
