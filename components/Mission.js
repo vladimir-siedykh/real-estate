@@ -1,11 +1,13 @@
 import imgVision from '../public/images/vision.png';
 import imgMission from '../public/images/mission.png';
 import Image from 'next/image';
+import MegaMenu from './MegaMenu';
 
 const Mission = () => {
   return (
     <section className='section bg-[#fafafa]'>
       <div className='grid max-w-7xl mx-auto grid-cols-1 lg:grid-cols-2 gap-10 md:gap-14 lg:gap-20'>
+        <MegaMenu />
         <div className='flex flex-col gap-5'>
           <Image
             src={imgVision}

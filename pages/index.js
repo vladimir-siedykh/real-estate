@@ -18,7 +18,7 @@ const HomePage = () => {
       <Testimonials />
       <Cta />
     </>
-  )
+  );
 }
 
 export default HomePage
