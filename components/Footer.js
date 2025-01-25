@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-col sm:flex-row justify-between gap-2 text-sm sm:text-base mt-10'>
           <div>© {new Date().getFullYear()} R&E. All Rights Reserved.</div>
-          <div>
+          {/* <div>
             Developed by{' '}
             <Link
               className='underline'
@@ -100,7 +100,7 @@ const Footer = () => {
             >
               Volodymyr Siedykh
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
