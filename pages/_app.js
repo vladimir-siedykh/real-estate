@@ -2,7 +2,7 @@ import { NextSeo } from 'next-seo';
 import Layout from '../components/Layout';
 import '../styles/globals.css'
 
-import { Nunito } from '@next/font/google';
+import { Nunito } from 'next/font/google';
 const nunito = Nunito({
   display: 'fallback',
   weights: ['100 900'],
